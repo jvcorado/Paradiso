@@ -11,19 +11,16 @@ import Feedbacks from "@/components/Feedbacks";
 import Parcerias from "@/components/Parcerias";
 import { Footer } from "@/components/Footer";
 import Servicos from "@/components/Servicos";
-import Contato from "@/components/Contato";
 
 export default function Home() {
   return (
     <main className="">
       <Banner />
-
       <ButtonWhats />
       <Sobre></Sobre>
       <Servicos></Servicos>
       <Portfolio></Portfolio>
       <Feedbacks></Feedbacks>
-      <Contato></Contato>
       <Parcerias></Parcerias>
       <Footer></Footer>
       {/*       <Planos /> */}

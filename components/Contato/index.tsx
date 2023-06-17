@@ -11,7 +11,7 @@
     ],
   }
   ```
-*/
+
 import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Switch } from "@headlessui/react";
@@ -43,7 +43,7 @@ export default function Contato() {
         </h2>
         {/*         <p className="mt-2 text-lg leading-8 text-gray-600">
           Aute magna irure deserunt veniam aliqua magna enim voluptate.
-        </p> */}
+        </p> 
       </div>
       <form
         action="#"
@@ -184,3 +184,4 @@ export default function Contato() {
     </div>
   );
 }
+
